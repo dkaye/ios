@@ -31,6 +31,8 @@
 		<string>https</string>
 		<string>http</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>APRS Map does not use the microphone. This permission is required by an audio library used to play message notification sounds.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>APRS Map uses your location in the background to share your position with other participants when location sharing is active.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -61,7 +63,6 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
-		<string>audio</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

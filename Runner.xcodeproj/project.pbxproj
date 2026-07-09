@@ -698,7 +698,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = "";
-				"MARKETING_VERSION[sdk=iphoneos*]" = 1.18.4;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 1.18.5;
 				PRODUCT_BUNDLE_IDENTIFIER = org.marsaprs.aprsMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
