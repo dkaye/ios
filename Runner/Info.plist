@@ -24,19 +24,21 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>https</string>
 		<string>http</string>
 	</array>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>APRS Map does not use the microphone. This permission is required by an audio library used to play message notification sounds.</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>APRS Map uses your location in the background to share your position with other participants when location sharing is active.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>APRS Map shows your position on the map. With your permission, it can also share your location with other event participants.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>APRS Map does not use the microphone. This permission is required by an audio library used to play message notification sounds.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
